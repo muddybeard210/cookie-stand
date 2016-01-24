@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:600italic|Righteous|Permanent+Marker);
+
+* {
+  background-color: #FFE5CC;
+  font-family: 'Josefin Sans'
+}
+header {
+font-family: 'Righteous', cursive;
+text-align: center;
+}
+.heads {
+  font-family: 'Righteous';
+  font-size: 40px;
+  text-decoration: underline;
+}
+h1 {
+  font-size: 40px;
+  font-family: 'Righteous';
+}
+h2 {
+  font-size: 30px;
+  font-family: 'Righteous';
+
+}
+h3 {
+  font-size: 25px;
+  font-family: 'Righteous';
+
+}
+.BrownColorBlocks {
+  border: solid 1px grey;
+  text-align: center;
+
+}
+.SalmonColorBlocks {
+  border: solid 1px grey;
+  text-align: center;
+}
+.ColorBlockSub {
+  font-size: 16px;
+  font-weight: bold;
+}
+#backgroundColor ul li {
+  width: 250px;
+  height: 100px;
+  display: inline-block;
+}
+#BColor1 {
+  background-color: #7A4513;
+  margin-left: 5px;
+}
+#BColor2 {
+  background-color: #A97038;
+}
+#BColor3 {
+  background-color: #D69F6B;
+}
+#BColor4 {
+  background-color: #FFD2A7;
+}
+#BColor5 {
+  background-color: #FFE5CC;
+}
+#SColor1 {
+  background-color: #7A1D13;
+  margin-left: 5px;
+
+}
+#SColor2 {
+  background-color: #A94338;
+
+}
+#SColor3 {
+  background-color: #D6756B;
+
+}
+#SColor4 {
+  background-color: #FFAFA7;
+
+}
+#SColor5 {
+  background-color: #FFD1CC;
+}
+ul li p {
+  background-color: inherit;
+}
+
+#right {
+  font-family: 'Righteous';
+}
+#regular {
+  font-family: 'Josefin Sans', sans-serif;
+}
