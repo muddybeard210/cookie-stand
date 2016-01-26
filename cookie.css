@@ -1,10 +1,34 @@
-section {
-  border: solid 1px black;
-  margin: 20px;
-  box-shadow: 20px 10px 10px teal;
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:600italic|Righteous|Permanent+Marker);
+
+* {
+  background-color: #FFE5CC;
+  font-family: 'Josefin Sans'
 }
-section ul li {
+
+header {
+font-family: 'Righteous', cursive;
+text-align: center;
+font-size: 40px;
+}
+section {
+  background-color: #FFAFA7;
+  border: solid 1px black;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 20px 10px 10px #A97038;
+}
+section h1 {
+  background-color: #FFAFA7;
+}
+section p {
+  background-color: #FFAFA7;
+}
+section ul {
+  background-color: #FFAFA7;
   font-weight: lighter;
+}
+section li {
+  background-color: #FFAFA7;
 }
 
 section p {

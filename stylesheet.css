@@ -30,11 +30,14 @@ h3 {
 .BrownColorBlocks {
   border: solid 1px grey;
   text-align: center;
+  border-radius: 10px;
 
 }
 .SalmonColorBlocks {
   border: solid 1px grey;
   text-align: center;
+  border-radius: 10px;
+
 }
 .ColorBlockSub {
   font-size: 16px;
@@ -60,11 +63,11 @@ h3 {
 }
 #BColor5 {
   background-color: #FFE5CC;
+  vertical-align: top;
 }
 #SColor1 {
   background-color: #7A1D13;
   margin-left: 5px;
-
 }
 #SColor2 {
   background-color: #A94338;
@@ -76,6 +79,7 @@ h3 {
 }
 #SColor4 {
   background-color: #FFAFA7;
+  vertical-align: top;
 
 }
 #SColor5 {
@@ -90,4 +94,11 @@ ul li p {
 }
 #regular {
   font-family: 'Josefin Sans', sans-serif;
+}
+#fontsRight {
+
+}
+#pictures img {
+  border-radius: 10px;
+
 }
