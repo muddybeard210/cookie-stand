@@ -1,4 +1,4 @@
-var hours = ['10am: ', '11am: ', '12am: ', '1pm: ', '2pm: ', '3pm: ', '4pm: ', '5pm: '];
+var hours = ['10am: ', '11am: ', '12pm: ', '1pm: ', '2pm: ', '3pm: ', '4pm: ', '5pm: '];
 var pikePlace = new Store('Pike Place', 17, 88, 5.2, 'pikePlace', 'totalSalesPike');
 var seaTac = new Store('SeaTac', 6, 24, 1.2, 'seaTac', 'totalSalesSea');
 var southCenter = new Store('Southcenter', 11, 38, 1.9, 'southCenter', 'totalSalesSouth');
