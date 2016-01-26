@@ -51,6 +51,8 @@ h3 {
 #BColor1 {
   background-color: #7A4513;
   margin-left: 5px;
+  color: #FFE5CC;
+
 }
 #BColor2 {
   background-color: #A97038;
@@ -68,6 +70,7 @@ h3 {
 #SColor1 {
   background-color: #7A1D13;
   margin-left: 5px;
+  color: #FFAFA7;
 }
 #SColor2 {
   background-color: #A94338;
@@ -101,4 +104,7 @@ ul li p {
 #pictures img {
   border-radius: 10px;
 
+}
+#fallback {
+  font-family: serif;
 }
