@@ -17,21 +17,3 @@ section {
   margin: 20px;
   box-shadow: 20px 10px 10px #A97038;
 }
-section h1 {
-  background-color: #FFAFA7;
-}
-section p {
-  background-color: #FFAFA7;
-}
-section ul {
-  background-color: #FFAFA7;
-  font-weight: lighter;
-}
-section li {
-  background-color: #FFAFA7;
-}
-
-section p {
-  text-decoration: underline;
-  font-size: 20px;
-}
