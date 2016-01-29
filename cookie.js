@@ -69,7 +69,7 @@ var averageInput = document.getElementById('averageCookies');
 
 btnEl.addEventListener('click', function(event) {
   event.preventDefault();
-  var getName = parseInt(nameInput.value);
+  var getName = nameInput.value;
   var getMin = parseInt(minInput.value);
   var getMax = parseInt(maxInput.value);
   var getAverage = parseInt(averageInput.value);
