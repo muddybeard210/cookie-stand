@@ -59,6 +59,9 @@ img.locationImg:hover {
 section ul {
   list-style: none;
 }
+section h2 {
+  text-align: center;
+}
 #cookieImg {
   height: 50px;
   width: 50px;
