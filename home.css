@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:600italic|Righteous|Permanent+Marker);
+
+* {
+  background-color: #FFE5CC;
+  font-family: 'Josefin Sans'
+}
+
+header {
+font-family: 'Righteous', cursive;
+font-size: 30px;
+}
+header h1 {
+  font-family: 'Permanent Marker', cursive;
+
+}
+header p {
+  font-size: 29px;
+  float: right;
+  margin-top: 75px;
+  margin-right: 600px;
+  padding-left: 0px;
+}
+nav ul li {
+  padding: 10px;
+  display: inline;
+
+}
+nav ul {
+  text-align: center;
+}
+nav {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px;
+
+}
+body {
+
+}
+section {
+  background-color: #FFAFA7;
+  border: solid 1px black;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 20px 10px 10px #A97038;
+  padding: 15px;
+}
+aside ul li {
+  border-bottom: 2px solid grey;
+  margin-bottom: 10px;
+}
+img.locationImg {
+  -webkit-filter: grayscale(100%);
+}
+
+img.locationImg:hover {
+  -webkit-filter: grayscale(0%);
+}
+section ul {
+  list-style: none;
+}
+section h2 {
+  text-align: center;
+}
+#cookieImg {
+  height: 50px;
+  width: 50px;
+  background-color: #FFAFA7;
+
+}
+#aside {
+  float: right;
+  margin-left: 0px;
+  position: relative;
+  margin-right: auto;
+
+}
+#cookiesDesc {
+  float: left;
+  width: 70%;
+  margin-right: 0px;
+
+
+}
+#cookiesDesc div {
+  width: 200px;
+}
+#shirtDesc {
+  width: 200px;
+}
+#liAbout {
+  border-right: 2px solid grey;
+}
+#liSales {
+  border-left: 2px solid grey;
+}
+.normalText {
+  background-color: #FFAFA7;
+}
+.locationImg {
+  height: 200px;
+  width: 300px;
+}
+
+#container {
+  min-height:100%;
+  position:relative;
+}
+#header {
+  padding:10px;
+}
+#body {
+  padding:10px;
+  padding-bottom:60px;   /* Height of the footer */
+}
+#footer {
+  position:fixed;
+  bottom:0;
+  width:100%;
+  height:60px;   /* Height of the footer */
+  border-radius: 15px;
+  background-color: #FFAFA7;
+  border: 2px solid grey;
+}
+#familyImg {
+  height: 200px;
+  width: 350px;
+}
+#talkBubble {
+  margin-top:0px;
+  margin-bottom: 80px;
+}
+html, body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
