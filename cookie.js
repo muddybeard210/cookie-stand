@@ -1,26 +1,6 @@
 var hours = ['10am ', '11am ', '12pm ', '1pm ', '2pm ', '3pm ', '4pm ', '5pm '];
-var pikePlace = new Store('Pike Place', 17, 88, 5.2);
-var seaTac = new Store('SeaTac', 6, 24, 1.2);
-var southCenter = new Store('Southcenter', 11, 38, 1.9);
-var bellevueSquare = new Store('Bellevue Square', 20, 48, 3.3);
-var alki = new Store('Alki', 3, 24, 2.6);
 var siteNameEl = document.getElementById('mainSection');
 
-var btnEl = document.getElementById('submit');
-var nameInput = document.getElementById('storeName');
-var minInput = document.getElementById('storeMin');
-var maxInput = document.getElementById('storeMax');
-var averageInput = document.getElementById('averageCookies');
-
-btnEl.addEventListener('click', function(event) {
-  event.preventDefault();
-  var getName = nameInput.value;
-  var getMin = minInput.value;
-  var getMax = maxInput.value;
-  var getAverage = averageInput.value;
-  var userStore = new Store (getName, getMin, getMax, getAverage);
-  userStore.render();
-});
 
 function Store(name, min, max, averageCookies) {
   this.store = name;
@@ -30,7 +10,7 @@ function Store(name, min, max, averageCookies) {
   this.totalSales = 0;
   this.cookiesPerHour = [];
   this.randomCookies = function() {
-    return Math.floor(Math.random() * (this.min, this.max) + this.min * this.averageSales);
+    return Math.floor((Math.random() * (this.max - this.min) + this.min) * this.averageSales);
   };
   this.generateHourlyCookies = function() {
     for (var i = 0; i < hours.length; i += 1) {
@@ -57,7 +37,6 @@ function Store(name, min, max, averageCookies) {
    };
 };
 
-
 headerGen = function () {
   var tHeader = document.createElement('tr');
   tHeader.innerHTML = 'Stores';
@@ -69,9 +48,31 @@ headerGen = function () {
   };
 };
 
+var pikePlace = new Store('Pike Place', 17, 88, 5.2);
+var seaTac = new Store('SeaTac', 6, 24, 1.2);
+var southCenter = new Store('Southcenter', 11, 38, 1.9);
+var bellevueSquare = new Store('Bellevue Square', 20, 48, 3.3);
+var alki = new Store('Alki', 3, 24, 2.6);
+
 headerGen();
 pikePlace.render();
 seaTac.render();
 southCenter.render();
 bellevueSquare.render();
 alki.render();
+
+var btnEl = document.getElementById('submit');
+var nameInput = document.getElementById('storeName');
+var minInput = document.getElementById('storeMin');
+var maxInput = document.getElementById('storeMax');
+var averageInput = document.getElementById('averageCookies');
+
+btnEl.addEventListener('click', function(event) {
+  event.preventDefault();
+  var getName = nameInput.value;
+  var getMin = parseInt(minInput.value);
+  var getMax = parseInt(maxInput.value);
+  var getAverage = parseInt(averageInput.value);
+  var userStore = new Store (getName, getMin, getMax, getAverage);
+  userStore.render();
+});

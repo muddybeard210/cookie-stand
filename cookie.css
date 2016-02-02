@@ -16,4 +16,19 @@ section {
   border-radius: 15px;
   margin: 20px;
   box-shadow: 20px 10px 10px #A97038;
+  padding: 15px;
+}
+
+td {
+  padding: 10px;
+  background-color: #FFAFA7;
+
+}
+tr {
+  background-color: #FFAFA7;
+
+}
+.inputField {
+  background-color: #FFAFA7;
+
 }
