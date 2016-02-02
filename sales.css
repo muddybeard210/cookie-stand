@@ -5,8 +5,8 @@
   font-family: 'Josefin Sans'
 }
 
-header {
-font-family: 'Righteous', cursive;
+header h1, p {
+font-family: 'Permanent Marker', cursive;
 text-align: center;
 font-size: 40px;
 }
@@ -31,4 +31,7 @@ tr {
 .inputField {
   background-color: #FFAFA7;
 
+}
+.tableHeader {
+  font-size: 20px;
 }
